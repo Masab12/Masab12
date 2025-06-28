@@ -15,13 +15,6 @@ I'm a full-stack web developer, AI engineer, and hyper-casual game developer. I 
 
 ---
 
-## 🤖 AI & Automation Projects
-
-### Support Bot – AI Agent for Customer Service  
-Built using LangChain, Groq’s Llama 3 model, and FAISS vector search. This chatbot provides accurate responses from a custom knowledge base, handles user queries in natural language, and includes memory for context-aware conversations. It’s built with a fast backend and a simple frontend for easy deployment on websites or internal tools.
-
----
-
 ## 🎮 Game Projects
 
 I develop mobile-first hyper-casual games using Unity and C#. My games are designed for short, addictive play loops with optimized UI, basic multiplayer using Photon, and monetization via ads and leaderboards.
@@ -38,8 +31,10 @@ I develop mobile-first hyper-casual games using Unity and C#. My games are desig
 
 ---
 
-## 📫 Let's Connect
+## 📫 Connect With Me
 
-I enjoy working on practical, useful tech—whether it's an AI assistant or a mobile game. If you're planning something that needs to be clean, fast, and reliable, feel free to reach out.
+[![Fiverr](https://img.shields.io/badge/Fiverr-View%20Profile-green?logo=fiverr&logoColor=white)](https://www.fiverr.com/p_scribbles)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/masabfarooque/)
+[![Upwork](https://img.shields.io/badge/Upwork-Hire%20Me-darkgreen?logo=upwork)](https://www.upwork.com/freelancers/~0161afa0faf75f976d)
 
-Check out my projects below or connect with me through Fiverr, LinkedIn, or email.
+I enjoy working on real-world ideas—whether it's an AI agent, automation tool, SaaS platform, or a mobile game. If you're building something meaningful, I'm always open to collaborate.
