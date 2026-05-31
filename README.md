@@ -2,10 +2,10 @@
 
 # Masab Farooque
 
-**Full Stack Developer &nbsp;&nbsp;·&nbsp;&nbsp; AI Engineer &nbsp;&nbsp;·&nbsp;&nbsp; Level 2 Fiverr Seller**
+**Full Stack Developer &nbsp;·&nbsp; AI Engineer &nbsp;·&nbsp; Level 2 Fiverr Seller**
 
-Building production-grade web applications and AI systems for clients across Europe, North America, and Asia.
-Based in Islamabad, Pakistan. 195+ projects shipped. 5.0 rating. Working since 2023.
+I build web applications and AI systems for clients across Europe, North America, and Asia.
+Based in Islamabad, Pakistan. 195+ completed projects. 5.0 rating. Working since 2023.
 
 <br>
 
@@ -20,31 +20,59 @@ Based in Islamabad, Pakistan. 195+ projects shipped. 5.0 rating. Working since 2
 
 ## About
 
-Computer Science graduate from COMSATS University Islamabad (2023). I started freelancing during university and transitioned fully into production software development by the time I graduated. Today I build web applications and AI systems for clients across 15+ countries, from SaaS platforms to multilingual AI pipelines to data scraping infrastructure.
+Computer Science graduate from COMSATS University Islamabad, 2023. I started freelancing during university and have been building production software for clients full time since graduating. Most of what I work on sits at the intersection of web development and AI: platforms that handle real data at scale, systems that automate repetitive work, and products that actually solve a problem.
 
-I picked up full stack development because I wanted to own the entire product. I moved into AI engineering in 2023 once the tooling was mature enough to build real software on top of. Both disciplines ended up being more complementary than separate, and most of my projects now use both.
+The numbers: 195+ completed orders, 100+ clients, 5.0 average rating, Level 2 on Fiverr. Behind those numbers are SaaS platforms, AI pipelines, data scraping systems, rental platforms, financial tools, and a fair number of projects I cannot talk about publicly.
 
-The numbers: 195+ completed orders, 100+ clients, 5.0 average rating, Level 2 status on Fiverr. Not mentioned in those numbers are the NDA projects, the private repos, and the systems that run quietly in production somewhere without anyone asking questions.
+I work as a solo developer. That means I handle architecture, backend, frontend, infrastructure, and deployment on every project. Clients get one person who owns the whole thing from start to finish.
 
 <br>
 
 ## What I Build
 
-### Full Stack Web Applications
+**Full Stack Web Applications**
 
-My default production setup is Next.js with the App Router and TypeScript on the frontend, NestJS or FastAPI on the backend depending on whether I need the Node ecosystem or Python's, PostgreSQL through Supabase for structured relational data, Redis with Celery for task queues and caching, and Docker for deployment. I reach for Stripe when payments are involved and Vercel when the project is purely Next.js.
+Production web apps built on Next.js, NestJS or FastAPI, PostgreSQL, Redis, and Docker. From simple booking platforms to multi-tenant SaaS products with billing, dashboards, admin panels, and background job systems. I have shipped everything from small business tools to platforms processing hundreds of thousands of records.
 
-I care about what makes codebases maintainable past the initial build: clean separation of concerns, proper error handling, sensible test coverage, and documentation that stays accurate. I have refactored enough inherited codebases to know exactly what the shortcuts cost.
+**AI and Automation**
 
-### AI Engineering
+Applications that use large language models in practical ways. RAG systems for searching and summarizing large document sets. Conversational agents that stay on topic and handle edge cases. Multi-agent workflows for complex multi-step tasks. The focus is always on making it actually work in production, not just in a demo.
 
-I build LLM-powered applications that are actually useful in production. RAG pipelines for document analysis and semantic search. Conversational agents that maintain context across long sessions without drifting. Multi-agent workflows with LangGraph for tasks that need coordinated steps and conditional branching. Automation systems that use LLMs for decision making rather than just text generation.
+**Web Scraping and Data Pipelines**
 
-The practical work: structuring prompts so outputs are consistent, knowing when a regex outperforms a language model, building fallbacks so the application handles API failures gracefully, and keeping inference costs at a level that makes the product viable at scale.
+Custom scrapers that run reliably at scale. I build data extraction systems using Selenium, Playwright, and Puppeteer for JavaScript-heavy sites and BeautifulSoup for static content. These typically feed into a database or trigger a downstream process like notifications or reports.
 
-### Web Scraping and Data Extraction
+<br>
 
-Custom scrapers for any target: Selenium, Playwright, and Puppeteer for JavaScript-heavy pages; BeautifulSoup and Scrapy for static content. I handle pagination, anti-bot measures, dynamic content loading, and authenticated sessions. Output goes wherever it needs to, whether that is PostgreSQL, a REST endpoint, a CSV pipeline, or directly into a processing workflow.
+## Selected Work
+
+**[FirstDeal](https://firstdeal.nl)** &nbsp; `Next.js` `FastAPI` `PostgreSQL` `Celery` `Redis` `Stripe` `Telegram API`
+
+SaaS platform for the Dutch and German second-hand car market. Monitors Marktplaats, 2dehands.be, and Kleinanzeigen in real time and sends instant Telegram and email alerts when a new listing matches a user's saved search. Car traders and buyers use it to find deals before anyone else does. Built with three subscription tiers, a full user dashboard for managing monitors, an admin panel, a referral system, and PWA support for mobile. Scrapers run as Celery background jobs across all three marketplaces simultaneously.
+
+<br>
+
+**[Hice.AI](https://app.hice.ai)** &nbsp; `Next.js` `FastAPI` `Supabase` `LangChain` `Docker`
+
+Multi-tenant AI business management platform. Companies use it to manage employees, track time, and generate reports through natural language commands instead of clicking through forms. LangChain agents handle intent detection and translate requests into the correct database operations. Row-level security through Supabase keeps each company's data completely isolated from others on the platform.
+
+<br>
+
+**[JANUA Financial](https://janua-financial-analysis-rho.vercel.app)** &nbsp; `Next.js` `FastAPI` `Python` `PostgreSQL`
+
+Financial analysis platform for European businesses. Users upload financial documents and the system extracts the data via OCR, calculates over 50 financial ratios, runs an Altman Z-Score for bankruptcy risk assessment, and generates a professional PDF report. Supports multi-currency inputs for European markets and tracks historical data for trend analysis.
+
+<br>
+
+**[Javea Denia Rentals](https://www.javea-denia-rentals.com)** &nbsp; `Next.js` `Express.js` `MongoDB` `Stripe`
+
+Vehicle rental platform for tourists in Jávea and Dénia on Spain's Costa Blanca. Handles real-time scooter and e-bike availability, online booking, and payment through Stripe. Includes an admin dashboard for managing the fleet and bookings, automated email confirmations, dynamic pricing by rental duration, and full Spanish and English language support. Built mobile-first since most bookings come from phones.
+
+<br>
+
+**[Apple Music Metadata Validator](https://github.com/Masab12)** &nbsp; `React` `TypeScript`
+
+Internal tool built for VerseOne, a music distribution company. Validates music metadata files before submission to Apple Music, catching formatting errors, missing fields, and duplicates that would cause rejections. Handles CSV and Excel uploads, parses the iMusician contributor role format, auto-detects data start rows in messy Excel exports, and auto-fills fields that can be inferred from existing data.
 
 <br>
 
@@ -87,22 +115,6 @@ Custom scrapers for any target: Selenium, Playwright, and Puppeteer for JavaScri
 
 <br>
 
-## Projects
-
-**[Full Portfolio at masabfarooque.com](https://masabfarooque.com/portfolio)**
-
-Most client work lives in private repos under NDA. The portfolio has selected case studies: a SaaS marketplace with Stripe billing and a custom scraping engine, a multilingual AI business management system with LangGraph agents, and a full stack B2B data platform with a scraping pipeline feeding into a PostgreSQL warehouse.
-
-**Anime Sauce Finder**
-
-Identifies anime from screenshots using the trace.moe API. Built with Next.js. Users upload an image, the app returns the title, episode number, and exact timestamp. Clean, focused, does one thing without getting in the way.
-
-**Attack on Titan LoreBot**
-
-Conversational AI trained on the full Attack on Titan canon. Built with LangChain and Groq for fast inference. The actual work was in structuring the knowledge base so retrieval returns specific, accurate answers rather than generic summaries. Zero hallucination on canon facts was the target.
-
-<br>
-
 ## GitHub Stats
 
 <div align="center">
@@ -115,19 +127,18 @@ Conversational AI trained on the full Attack on Titan canon. Built with LangChai
 
 <br>
 
-## Also: Game Development
+## Game Development
 
-Three national game jam awards from competitions in Pakistan: Best Mechanics at Rookie Game Jam 2022 (Mindstorm Studios, where the game was also selected for incubation), Runner-Up at Developers Game Jam 2.0, and a Special Award from Epiphany Games in 2020. All built in Unity with C#. I no longer actively take game development projects but the foundation in multiplayer networking with Photon, physics systems, and performance optimization on constrained hardware still shows up in how I think about other technical problems.
+I have three national game jam awards from competitions in Pakistan: Best Mechanics at Rookie Game Jam 2022 run by Mindstorm Studios (where the game was also selected for studio incubation), Runner-Up at Developers Game Jam 2.0, and a Special Award from Epiphany Games in 2020. All built with Unity and C#. I no longer take game development projects but the experience with multiplayer networking, physics systems, and building under a hard deadline still informs how I approach other problems.
 
 <br>
 
-## Let's Work Together
+## Get in Touch
 
-I take on freelance projects and contracts. If you need a developer who can handle the full stack from architecture to deployment, integrate AI in a way that makes the product better rather than just more complex, or build scrapers that actually survive production traffic, reach out.
+I take on freelance projects and contracts. If you need someone to build a web application, integrate AI into an existing product, or set up a data pipeline, feel free to reach out.
 
 [![Email](https://img.shields.io/badge/masabfarooque1122@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:masabfarooque1122@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-masabfarooque.com-000000?style=flat-square&logo=safari&logoColor=white)](https://masabfarooque.com)
 [![Fiverr](https://img.shields.io/badge/Fiverr-Level_2_Seller-1DBF73?style=flat-square&logo=fiverr&logoColor=white)](https://www.fiverr.com/p_scribbles)
 [![Upwork](https://img.shields.io/badge/Upwork-Available-6FDA44?style=flat-square&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~0161afa0faf75f976d)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-masabfarooque-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/masabfarooque/)
-](https://masabfarooque.com/_next/image?url=%2FMasab.jpeg&w=828&q=75)
