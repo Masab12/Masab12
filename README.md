@@ -1,4 +1,4 @@
-<div align="center">
+[<div align="center">
 
 # Masab Farooque
 
@@ -130,3 +130,4 @@ I take on freelance projects and contracts. If you need a developer who can hand
 [![Fiverr](https://img.shields.io/badge/Fiverr-Level_2_Seller-1DBF73?style=flat-square&logo=fiverr&logoColor=white)](https://www.fiverr.com/p_scribbles)
 [![Upwork](https://img.shields.io/badge/Upwork-Available-6FDA44?style=flat-square&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~0161afa0faf75f976d)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-masabfarooque-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/masabfarooque/)
+](https://masabfarooque.com/_next/image?url=%2FMasab.jpeg&w=828&q=75)
